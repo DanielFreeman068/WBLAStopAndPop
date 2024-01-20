@@ -28,54 +28,38 @@ ul {
     background-color: #2f0000;
   }
 
-  .top-section{
+  .active {
+    background-color: #aa0404;
+  }
+
+  .buttontest:hover{
+    background-color: rgb(255, 0, 0);
+    transition: background-color .2s;
+}
+
+.buttontest2:hover{
+    background-color: rgb(255, 0, 0);
+    transition: background-color .2s;
+}
+
+.buttontestcenter{
+    text-align-last: center;
+    padding-left: 25px;
+}
+
+.buttontestcenter2{
+    text-align-last: center;
+    padding-left: 40px;
+}
+
+
+.top-section{
     background-color: #b00000;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 100px;
 
-  }
-
-  .active {
-    background-color: #aa0404;
-  }
-
-  .right-navbar{
-    float: right;
-  }
-
-  .left-section{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 150px;
-    padding-top: 150px;
-    float: left;
-    background-color: #b00000;
-    margin-left: 80px;
-    border-radius: 10px;
-
-  }
-
-  .right-section1{
-    padding-left: 300px;
-    padding-right: 150px;
-    padding-bottom: 350px;
-    float: right;
-    background-color: #b00000;
-    margin-right: 200px;
-    border-radius: 10px;
-  }
-
-  .right-section2{
-    padding-left: 300px;
-    padding-right: 150px;
-    padding-bottom: 350px;
-    float: right;
-    background-color: #b00000;
-    margin-right: 200px;
-    margin-top: 30px;
-    border-radius: 10px;
   }
 
   .elevate-topsec{
@@ -86,7 +70,192 @@ ul {
     font-family: Horizon;
   }
 
+.smallfooter{
+    margin-top: 20px;
+    padding: 16px 32px;
+    background-color: rgb(212, 118, 118);
+}
+
+.h3testfooter{
+    text-align-last: center;
+    font-size: medium;
+}
+
+.hreftestfooter{
+    color:  rgb(126, 39, 39);
+    text-align-last: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.containerStyle {
+    width: 100%;
+    background-size: contain;
+    background-position: top center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0 8px 16px 0 #ff000033;
+    transition: 0.3s; 
+    border: none;
+}
+
+.containerStyle:hover{
+    box-shadow: 0 16px 32px 0 #ff000033;
+}
+
+.containerStyle2:hover{
+    box-shadow: 0 16px 32px 0 #ff000033;
+}
+
+.h1test{
+    padding-left: 30px;
+    text-align-last: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.h4test{
+    text-align-last: center;
+    font-size: large;
+}
+
+.buttontest{
+    background-color:  rgb(255, 0, 0);
+    border: none;
+    text-decoration: none;
+    font-size: 25px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-family: Arcade;
+
+}
+
+.h1test2{
+    padding: 16px 30px;
+    text-align-last: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.h4test2{
+    text-align-last: center;
+    font-size: x-large;
+    padding-left: 40px;
+    color: white;
+}
+
 @font-face {
     font-family: Horizon;
     src: url(./Horizon.otf);
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ff0000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #9b5252;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #da5858;
+  }
+
+  .footer{
+	margin-top: 100px;
+    padding: 100px 15%;
+    background: #481616;
+    color: #b60d0d;
+    display: flex;
+
+    }
+
+.footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+display: block;
+text-decoration: none;
+color: #b60d0d;
+margin-bottom: 10px;
+}
+
+.col-2 form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+.col-2 form button{
+    background: transparent;
+    border: 2px solid #000000;
+    color: #b60d0d;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        background-color: #3b3b3b;
+        border-radius: 15px;
+        border: #000 10px solid;
+        font-size: x-large;
+        text-align: center;
+        color: white;
+ }
+
+input::placeholder{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.button {
+        background-color: rgb(0, 0, 0);
+        box-sizing: border-box;
+        color: rgb(173, 25, 25);
+        padding: 15px 32px 15px 32px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        height: 80px;
+        border-radius: 20px;
+
+      }
