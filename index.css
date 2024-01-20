@@ -1,0 +1,92 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  li a:hover {
+    background-color: #2f0000;
+  }
+  
+  body{
+    background-color: #2f0000;
+  }
+
+  .top-section{
+    background-color: #b00000;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+
+  }
+
+  .active {
+    background-color: #aa0404;
+  }
+
+  .right-navbar{
+    float: right;
+  }
+
+  .left-section{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    float: left;
+    background-color: #b00000;
+    margin-left: 80px;
+    border-radius: 10px;
+
+  }
+
+  .right-section1{
+    padding-left: 300px;
+    padding-right: 150px;
+    padding-bottom: 350px;
+    float: right;
+    background-color: #b00000;
+    margin-right: 200px;
+    border-radius: 10px;
+  }
+
+  .right-section2{
+    padding-left: 300px;
+    padding-right: 150px;
+    padding-bottom: 350px;
+    float: right;
+    background-color: #b00000;
+    margin-right: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  .elevate-topsec{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Horizon;
+  }
+
+@font-face {
+    font-family: Horizon;
+    src: url(./Horizon.otf);
+}
