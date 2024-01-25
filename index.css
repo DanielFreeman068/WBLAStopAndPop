@@ -86,7 +86,7 @@ body {
 
 .hero h1 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #c53321; /* Red color for the text */
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -94,7 +94,7 @@ body {
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
@@ -116,10 +116,62 @@ body {
 
 .features {
     display: flex;
+    justify-content: space-around; /* Changed for equal spacing */
+    align-items: flex-start; /* Align items to the start for better alignment */
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 50px 20px;
-    background-color: #202020;;
+    gap: 30px; /* Increased gap for better spacing */
+    padding: 50px;
+    background: linear-gradient(to bottom, #333, #000); /* Gradient from lighter to darker black */
+    text-align: center;
+}
+
+.feature-item {
+    width: 250px; /* Increased size */
+    padding: 20px;
+    color: #fff;
+    display: flex; /* Added for vertical alignment */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align the child elements */
+}
+
+.feature-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #323232;
+    box-shadow: 0 0 15px #c53321; /* Red glow effect */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow */
+}
+
+.feature-image:hover {
+    box-shadow: 0 0 20px #c53321; /* Intensify the glow on hover */
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-item h3, .feature-item p {
+    background: -webkit-linear-gradient(#fff, #e9a098); /* Gradient from white to reddish-pink */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.feature-item h3 {
+    font-size: 2rem; /* Slightly larger font for headers */
+}
+
+
+.feature-item p {
+    font-size: 1rem;
+    text-align: center; /* Ensure text is centered */
 }
 
 .testimonials {
@@ -239,8 +291,17 @@ input::placeholder {
         font-size: 1rem;
     }
 
-    .features{
-        flex-direction: column;
+    .features {
+        justify-content: center;
+    }
+
+    .feature-item {
+        width: 200px;
+    }
+
+    .feature-image {
+        width: 200px;
+        height: 200px;
     }
 
     .footer {
