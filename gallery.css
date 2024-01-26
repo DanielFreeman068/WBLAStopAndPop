@@ -50,61 +50,130 @@ body {
 .nav-logo img:hover {
   filter: drop-shadow(0 0 15px #ff0000);
 }
+.footer {
+  margin-top: 100px;
+  padding: 100px 15%;
+  background: #202020;; 
+  color: #efd3da; /* Light pink text color to match your color scheme */
+  display: flex;
+  flex-wrap: wrap; /* Ensure it wraps on smaller screens */
+  justify-content: space-between; /* Distribute space between columns */
+}
+
+.footer div {
+  text-align: center;
+  flex-basis: calc(33.333% - 20px); /* Allocate equal width accounting for padding/margin */
+  margin: 10px; /* Add some space between columns */
+}
+
+.col-2 {
+  flex-grow: 2; /* The newsletter section will take up more space */
+}
+
+.footer h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.footer a {
+  display: block;
+  text-decoration: none;
+  color: #efd3da; /* Light pink links color to match your color scheme */
+  margin-bottom: 10px;
+}
+
+.footer input[type=email] {
+  width: 80%; /* Responsive width */
+  max-width: 400px; /* Maximum width */
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: 2px solid #000000;
+  background-color: #3b3b3b;
+  color: white;
+  padding: 12px 20px;
+  font-size: x-large;
+}
+
+.footer button {
+  background: transparent;
+  border: 2px solid #000000;
+  color: #efd3da;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer .social-icons {
+  margin-top: 30px;
+}
+
+.footer .social-icons i {
+  font-size: 22px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #efd3da;
+}
 body{
-  background-color: darkred;
+  background-color: #121212;
 }
 .image_1{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: left;
   width: 50%;
   height: 450px;
 }
 .image_2{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: right;
   width: 50%;
   height: 150px
 }
 .image_3{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: right;
   width: 50%;
   height: 150px;
 }
 .image_4{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: right;
   width: 50%;
   height: 150px;
 }
 .image_5{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: right;
   width: 50%;
   height: 450px
 }
 .image_6{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: left;
   width: 50%;
   height: 150px;
 }
 .image_7{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: left;
   width: 50%;
   height: 150px;
 }
 .image_8{
   display: block;
-  border-style: solid;
+  border: 4px;
   float: left;
   width: 50%;
   height: 150px;
