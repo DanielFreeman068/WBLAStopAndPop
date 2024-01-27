@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elevate | Gallery</title>
-    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="./gallery.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
 </head>
 <body>
     <nav class="navbar">
@@ -15,40 +17,52 @@
         </a>
         <a href="./store.html" class="nav-link">Store</a>
     </nav>
-    <div class="image_1"><img src="./Screenshot_1.png" alt="test pic"></div>
-    <div class="image_2"><img src="./image_2.png" alt="test pic"></div>
-    <div class="image_3"><img src="./image_3.jpg" alt="test pic"></div>
-    <div class="image_4"><img src="./image_4.png" alt="test pic"></div>
-    <div class="image_5"><img src="./image_5.png" alt="test pic"></div>
-    <div class="image_6"><img src="./image_6.jpeg" alt="test pic"></div>
-    <div class="image_7"><img src="./image_7.png" alt="test pic"></div>
-    <div class="image_8"><img src="./image_8.jpg" alt="test pic"></div>
-    <div class="footer">
-        <div class="col-1">
-          <h3>USEFUL LINKS</h3>
-          <a href="./index.html">Home</a>
-          <a href="./store.html">Store</a>
-          <a href="./gallery.html">Gallery</a>
-        </div>
-        <div class="col-2">
-          <h3>NEWSLETTER</h3>
-          <form>
-            <input type="email" placeholder="Your Email Address" required>
-            <br>
-            <button type="submit">SUBSCRIBE NOW</button>
-          </form>
-        </div>
-        <div class="col-3">
-          <h3>CONTACT</h3>
-          <p>123 Health Valley Rd. <br> Los Angeles, CA</p>
-          <p>&copy; Elevate 2024</p>
-          <div class="social-icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-behance"></i>
+    <section class="gallery">
+      <div class="gallery-row">
+          <div class="gallery-item large"><img src="./Screenshot_1.png" alt="test pic"></div>
+          <div class="gallery-column">
+              <div class="gallery-item"><img src="./image_2.png" alt="test pic"></div>
+              <div class="gallery-item"><img src="./image_3.jpg" alt="test pic"></div>
+              <div class="gallery-item"><img src="./image_4.png" alt="test pic"></div>
           </div>
-        </div>
+      </div>
+      <div class="gallery-row">
+          <div class="gallery-column">
+              <div class="gallery-item"><img src="./image_6.jpeg" alt="test pic"></div>
+              <div class="gallery-item"><img src="./image_7.png" alt="test pic"></div>
+              <div class="gallery-item"><img src="./image_8.jpg" alt="test pic"></div>
+          </div>
+          <div class="gallery-item large"><img src="./image_5.png" alt="test pic"></div>
+      </div>
+  </section>
+  <div class="footer">
+    <div class="col-1">
+      <h3>USEFUL LINKS</h3>
+      <a href="./index.html">Home</a>
+      <a href="./store.html">Store</a>
+      <a href="./gallery.html">Gallery</a>
     </div>
+    <div class="col-2">
+      <h3>NEWSLETTER</h3>
+      <form>
+        <input type="email" placeholder="Your Email Address" required>
+        <br>
+        <button type="submit">SUBSCRIBE NOW</button>
+      </form>
+    </div>
+    <div class="col-3">
+      <h3>CONTACT</h3>
+      <p>123 Health Valley Rd. <br> Los Angeles, CA</p>
+      <p>&copy; Elevate 2024</p>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-behance"></i>
+      </div>
+    </div>
+</div>
+
+
 </body>
 </html>
