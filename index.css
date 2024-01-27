@@ -272,6 +272,15 @@ body {
     color: #efd3da; /* Soft contrast for readability */
 }
 
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: linear-gradient(to right, #3c2323, #3c2929); /* Elegant gradient background */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Enhanced shadow for depth */
+    transition: transform 0.3s ease-in-out;
+}
 .footer {
     margin-top: 100px;
     padding: 100px 15%;
@@ -419,14 +428,5 @@ input::placeholder {
     .testimonial-photo img {
         width: 60px;
         height: 60px;
-    }
-
-    .about-content {
-        padding: 20px;
-        margin: 20px;
-    }
-
-    .about h2 {
-        font-size: 2rem;
     }
 }
