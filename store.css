@@ -117,3 +117,14 @@
 .card{
     color: white;
 }
+
+h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

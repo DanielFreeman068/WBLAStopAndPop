@@ -179,7 +179,7 @@ body {
     justify-content: space-around; /* Evenly space out items */
     flex-wrap: wrap; /* Allow items to wrap onto the next line */
     padding: 50px 20px;
-    background: linear-gradient(to top, #76221b ,#000000); /* Gradient from lighter to darker black */
+    background-color: #323232;
     text-align: center;
 }
 
@@ -187,7 +187,7 @@ body {
     width: 30%; /* Adjust based on the number of items and container width */
     margin: 10px; /* Adds some space around each item */
     padding: 20px;
-    background-color: rgba(34, 29, 29, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -234,48 +234,14 @@ body {
 }
 
 .about {
-    background: linear-gradient(to bottom, #76221b ,#121212); /* Gradient from lighter to darker black */
-    color: #fff;
     padding: 50px 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-content {
-    max-width: 800px;
-    margin: auto;
-    padding: 30px;
-    background: linear-gradient(to right, #3c2323, #3c2929); /* Elegant gradient background */
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Enhanced shadow for depth */
-    transition: transform 0.3s ease-in-out;
-}
-
-.about-content:hover {
-    transform: scale(1.05); /* Slight scale on hover */
-}
-
-.about h2 {
-    font-size: 2.5rem; /* Larger and more elegant font size */
-    margin-bottom: 20px;
-    color: #e9a098; /* Light reddish-pinkish color */
-    text-shadow: 2px 2px 4px #000; /* Subtle text shadow */
-}
-
-.about p {
-    text-align: justify;
-    margin-bottom: 15px;
-    line-height: 1.6;
-    font-size: 1.1rem; /* Slightly larger font size */
-    color: #efd3da; /* Soft contrast for readability */
+    background-color: #76221b;
 }
 
 .footer {
     margin-top: 100px;
     padding: 100px 15%;
-    background: linear-gradient(to top, #000 ,#121212); /* Gradient from lighter to darker black */
+    background: #202020;; 
     color: #efd3da; /* Light pink text color to match your color scheme */
     display: flex;
     flex-wrap: wrap; /* Ensure it wraps on smaller screens */
@@ -419,14 +385,5 @@ input::placeholder {
     .testimonial-photo img {
         width: 60px;
         height: 60px;
-    }
-
-    .about-content {
-        padding: 20px;
-        margin: 20px;
-    }
-
-    .about h2 {
-        font-size: 2rem;
     }
 }
