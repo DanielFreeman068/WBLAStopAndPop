@@ -6,6 +6,7 @@
     <title>Elevate | Gallery</title>
     <link rel="stylesheet" href="./gallery.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
 </head>
@@ -17,24 +18,44 @@
         </a>
         <a href="./store.html" class="nav-link">Store</a>
     </nav>
-    <section class="gallery">
-      <div class="gallery-row">
-          <div class="gallery-item large"><img src="./Screenshot_1.png" alt="test pic"></div>
-          <div class="gallery-column">
-              <div class="gallery-item"><img src="./image_2.png" alt="test pic"></div>
-              <div class="gallery-item"><img src="./image_3.jpg" alt="test pic"></div>
-              <div class="gallery-item"><img src="./image_4.png" alt="test pic"></div>
-          </div>
-      </div>
-      <div class="gallery-row">
-          <div class="gallery-column">
-              <div class="gallery-item"><img src="./image_6.jpeg" alt="test pic"></div>
-              <div class="gallery-item"><img src="./image_7.png" alt="test pic"></div>
-              <div class="gallery-item"><img src="./image_8.jpg" alt="test pic"></div>
-          </div>
-          <div class="gallery-item large"><img src="./image_5.png" alt="test pic"></div>
-      </div>
-  </section>
+    
+    <div class="gallery-container">
+      <a href="./image_2.png">
+          <img src="./image_2.png" alt="Image 1">
+      </a>
+      <a href="./image_3.jpg">
+          <img src="./image_3.jpg" alt="Image 2">
+      </a>
+      <a href="./image_4.png">
+        <img src="./image_4.png" alt="Image 3">
+    </a>
+    <a href="./image_5.png">
+      <img src="./image_5.png" alt="Image 4">
+  </a>
+  <a href="./image_6.jpeg">
+    <img src="./image_6.jpeg" alt="Image 5">
+  </a>
+  <a href="./image_7.png">
+    <img src="./image_7.png" alt="Image 6">
+  </a>
+  <a href="./image_8.jpg">
+    <img src="./image_8.jpg" alt="Image 7">
+  </a>
+  <a href="./image_9.jpg">
+    <img src="./image_9.jpg" alt="Image 8">
+  </a>
+  <a href="./image_10.jpg">
+    <img src="./image_10.jpg" alt="Image 9">
+  </a>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+  <script>
+      baguetteBox.run('.gallery-container');
+  </script>
+  
+
+
   <div class="footer">
     <div class="col-1">
       <h3>USEFUL LINKS</h3>
